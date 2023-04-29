@@ -1,7 +1,7 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@300&display=swap');
  .root{
-    --primary-color: #ebe9e9
+    --primary-color: red
     --secondary-color: #f3f8f2
     --accent1-color: #6c6061
     --accent2-color: #07393c
