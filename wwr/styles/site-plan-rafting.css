@@ -4,8 +4,10 @@
     --secondary-color: #f3f8f2;
     --accent1-color: #6c6061;
     --accent2-color: #07393c;
-    --heading-font: arial, serif;
-    --paragraph-font:Arial, serif;
+
+    --heading-font: arial black, serif;
+    --paragraph-font: Arial black, serif;
+
     --nav-background-color: #ebebeb;
     --nav-link-color: #f3f8f2;
     --nav-hover-link-colour: #6c6061;
