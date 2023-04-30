@@ -2,11 +2,11 @@
 :root {
     --primary-color: #dee2d6;
     --secondary-color: #f3f8f2;
-     --accent1-color: #6c6061;
+    --accent1-color: #6c6061;
     --accent2-color: #07393c;
-     --heading-font: arial, serif;
+    --heading-font: arial, serif;
     --paragraph-font:Arial, serif;
-      --nav-background-color: #ebebeb;
+    --nav-background-color: #ebebeb;
     --nav-link-color: #f3f8f2;
     --nav-hover-link-colour: #6c6061;
     --nav-hover-background-color:#ebebeb;
