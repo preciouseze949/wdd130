@@ -1,30 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@300&display=swap');
- .root{
+:root{
     --primary-color: red
- }
- .root{
+ 
     --secondary-color: #f3f8f2
- }
- .root{   
+   
     --accent1-color: #6c6061
- }
- .root{
+ 
     --accent2-color: #07393c
- }
- .root{
+ 
     --heading-font: arial, serif;
     --paragraph-font:Arial, serif;
 
     --nav-background-color: #ebebeb
- } 
- .root{
-   --nav-link-color: #f3f8f2
- }
- .root{ 
+    --nav-link-color: #f3f8f2
     --nav-hover-link-colour: #6c6061
- }
- .root{
-        --nav-hover-background-color:#ebebeb
+    --nav-hover-background-color:#ebebeb
 }
 
 body{
