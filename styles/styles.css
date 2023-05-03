@@ -25,6 +25,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     background-color: #eee;
     color: #333;
@@ -61,7 +62,7 @@ footer{
     color: #000;
 }
 aside h2{
-    position: relative;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
