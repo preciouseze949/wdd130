@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@300&display=swap');
+:root {
+    --primary-color: #dee2d6;
+    --secondary-color: #f3f8f2;
+    --accent1-color: #6c6061;
+    --accent2-color: #07393c;
+
+    --heading-font: arial black, serif;
+    --paragraph-font: Arial black, serif;
+
+    --nav-background-color: #ebebeb;
+    --nav-link-color: #f3f8f2;
+    --nav-hover-link-colour: #6c6061;
+    --nav-hover-background-color:#ebebeb;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+  }  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link {
+    color: var(--nav-link-color);
+}
+nav a:visited {
+    color: var(--nav-link-color);
+}    
+hero img{
+    display: block;
+    width: 100;
+    height: auto;
+}
