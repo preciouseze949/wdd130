@@ -41,12 +41,10 @@ ul{
     color: #333;
     background-color: #ddd;
     display: grid;
-    float: center;
     width: auto;
 }
 main {
     width: 20rem;
-    text-align: auto;
     margin: 1rem;
     grid-column: 2/3;
 
@@ -96,7 +94,6 @@ footer{
     
 }
 aside h2{
-    position: center;
     top: 47px;
     left: 150px;
 }
