@@ -33,6 +33,8 @@ nav a img{
 }
 .hero {
     position: relative;
+    height: 300px;
+    overflow: hidden;
 }
 .hero img{
     display: block;
@@ -40,7 +42,7 @@ nav a img{
 }
 .hero h1{
     position: absolute;
-    top: 60px;
+    top: 10px;
     width: 100%;
     background: grey;
     text-align: center;
@@ -49,7 +51,7 @@ nav a img{
 .hero article{
     position: absolute;
     right: 130px;
-    top: 300px;
+    top: 100px;
     float: right;
     opacity: 80%;
     margin: auto;
@@ -63,22 +65,55 @@ nav a img{
 section img{
     width: 250px;
     height: 160px;
-    display: right;
+    
 }
 section h2{
     text-align: center;
 }
-.p1 {
-    grid-column: 1/3;
-    grid-row: 1/1;
-    text-align: center;
-    position: absolute;
-    right: 50px;
-    width: 500px;
-    height: auto;
+.adventure{
+    display: flex;
+    justify-content: start;
+    max-width: 100%;
 }
-.his{
-    grid-column: 3/4;
-    grid-row: 1/1;
+.adventure figure {
+    flex-basis: 20%;
     text-align: center;
-}
+  }
+  
+  .adventure img {
+    max-width: 100%;
+    height: 150px;
+  }
+  
+  .adventure figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  .grid {
+    display: grid;
+    align-items: center;
+    width: 80rem;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 3rem;
+    
+    
+  }
+  .history-class .history{
+      grid-row: 1/3;
+      grid-column: 2/3;
+      margin: 3rem;
+    
+  }
+  .history-class .history-text{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    
+  }
+  .history-class.history-paragraph{
+    grid-row: 3/3;
+    grid-column: 3/3;
+    
+  }
+  

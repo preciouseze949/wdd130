@@ -32,9 +32,11 @@ p {
 
 }
 main {
-    max-width: 40%;
-    grid-column: right;
-    grid-row: right;
+    width: 30rem;
+    grid-column: 2/3;
+    
+    margin: 2rem;
+    position: relative;
 }
 main img{
     float: right;
@@ -46,8 +48,10 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    width: 20rem;
-   
+    width: 22rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 20px;
 }
 aside img {
     width: 200px;
@@ -75,11 +79,13 @@ footer{
     color: #000;
     
 }
-aside h2{
-    top: 47px;
-    left: 150px;
-}
+
 header, footer,.grid{
-    max-width: 100%;
-    margin: 0 auto;
+    max-width:960px;
+    margin: auto;
+
+}
+.grid {
+    display: grid;
+    align-items: center;
 }
