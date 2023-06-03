@@ -136,6 +136,31 @@ section h2{
     
   }
   form{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    background-color: #669bbc;
   }
+  form{
+    display: grid;
+    margin-left: 10px;
+  }
+  label {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }  
+  textarea {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 340px;
+    margin-left: 10px;
+  }
+  input {
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  
