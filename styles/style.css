@@ -17,6 +17,10 @@ aside img {
     height: auto;
 }
 
+h1 {
+    color: black;
+}
+
 main img {
     width: 200px;
     height: auto;
