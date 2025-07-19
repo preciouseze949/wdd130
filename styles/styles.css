@@ -12,18 +12,19 @@ aside {
     text-align: center;
 }
 
-aside img {
+nav a {
+    color: blue;
+    padding: 5px;
+    display: inline;
+}
+
+img {
     width: 200px;
     height: auto;
 }
 
 h1 {
     color: black;
-}
-
-main img {
-    width: 200px;
-    height: auto;
 }
 
 p {
