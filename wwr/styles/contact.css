@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #62B6CB;
+    --secondary-color: #79C3D3;
+    --accent1-color: #90D0DA;
+    --accent2-color: #BEE9E8;
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Rubik", sans-serif;
+}
+
+* {
+    font-family: calibri;
+}
+
+form {
+    width: 450px;
+    height: auto;
+    background-color: #bee9e836;
+    border-radius: 10px;
+    padding: 20px 100px;
+    margin: 50px 0;
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qee {
+    display: inline;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+input[type="textarea"] {
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+.submit {
+    display: block;
+    padding: 10px 40px;
+    color: white;
+    background-color: #62B6CB;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    margin-left: 100px;
+}
+
+nav a {
+    padding: 10px 20px;
+    background-color: #077a97;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+header img {
+    padding-left: 200px;
+}
+
+.cont {
+    padding: 30px;
+    background-color: #bee9e850;
+}
+
+footer {
+    background-color: #62B6CB;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 450px;
+}
+
+.socialmedia {
+    margin-left: 250px;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+}
